@@ -1,6 +1,6 @@
 import Mynavbar from "../components/navbar";
 import { MdEmail } from "react-icons/md";
-import { BsTelephoneFill } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa6";
 import { GoLocation } from "react-icons/go";
 
 function Contact() {
@@ -15,20 +15,40 @@ function Contact() {
         </p>
         <h1>Contact Information</h1>
         <div className="section-contact">
-          <p className="contact">
-            <span className="contact-icone"><MdEmail /></span><br />
-            <strong>Email:</strong> billydoumbouya5210@gmail.com
-          </p>
-
-          <p className="contact">
-            <span className="contact-icone"><BsTelephoneFill /></span><br />
-            <strong>Phone/WhatsApp:</strong> +224 623952011 / +234 07056745571
-          </p>
-
-          <p className="contact">
-            <span className="contact-icone"><GoLocation /></span><br />
-            <strong>Location:</strong> Ibadan, Nigeria
-          </p>
+              <a href="billydoumbouya5210@gmail.com" className="contact-link">
+                Leave a message to our <br />
+                <span className="contact-icone">
+                  {" "}
+                  <MdEmail />
+                </span>
+              </a>
+            <br />
+         
+         
+              <a
+                href="https://wa.me/qr/IYPKJQ7UBL7YG1"
+                className="contact-link"
+              >
+                Contact us by <br />
+                <span className="contact-icone">
+                  {" "}
+                  <FaWhatsapp />
+                </span>
+              </a>
+          
+            <br />
+          
+              <a
+                href="https://maps.app.goo.gl/jxxZsaC7sQg68hRRA"
+                className="contact-link"
+              >
+                {" "}
+                See our location <br />
+                <span className="contact-icone">
+                  <GoLocation />
+                </span>
+              </a>
+            <br />
         </div>
       </div>
     </div>

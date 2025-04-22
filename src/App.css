@@ -115,7 +115,7 @@ p {
   margin: 0px auto;
   padding: 20px 40px;
   width: 90%;
-  max-width: 70%;
+  max-width: 80%;
   background-color: #f515eace;
   font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 10px;
@@ -127,13 +127,13 @@ p {
   text-align: center;
 }
 .section-contact {
-  width: fit-content;
+  width: inherit;
   display: flex;
   justify-content: center;
   background-color: #f8f9fa; 
   color: tomato;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
   padding: 10px 30px;
   border-radius: 20px;
   text-align: center;
@@ -144,14 +144,18 @@ p {
   border-top: 3px ridge palegoldenrod;
 }
 
-.contact-icone {
-  font-size: 40px;
+.contact-icone{
+  font-size: 50px;
+  color: blue;
   vertical-align: middle;
+
 }
-.contact {
-  color: #6c757d; /* gris doux souvent utilisé dans Bootstrap */
-  font-style: italic; /* optionnel */
-  opacity: 0.7; /* optionnel */
+
+.contact-link{
+  font-size: 15px;
+  color: black;
+  font-weight: normal;
+
 }
 
 /* about style */
