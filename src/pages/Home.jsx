@@ -1,9 +1,7 @@
-import Mynavbar from "../components/navbar";
-
+import React from "react";
 function Home() {
   return (
     <div className="parent">
-      <Mynavbar />
       <div className="home-container">
         <h1 className="home-head1">Welcome to My World</h1> {/* Titre principal unique */}
         

@@ -1,4 +1,3 @@
-import Mynavbar from "../components/navbar";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
 import { GoLocation } from "react-icons/go";
@@ -6,7 +5,6 @@ import { GoLocation } from "react-icons/go";
 function Contact() {
   return (
     <div className="parent">
-      <Mynavbar />
       <div className="contact-container">
         <h1>Contact Me</h1>
         <p>

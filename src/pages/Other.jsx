@@ -1,9 +1,7 @@
-import Mynavbar from "../components/navbar";
-
+import React from "react";
 function Other() {
   return (
     <div>
-      <Mynavbar />
   
     </div>
   );
